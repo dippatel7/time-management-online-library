@@ -1,0 +1,189 @@
+body{
+  background-color: white;
+}
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+
+  header a {
+      float: left;
+      transition: all 0.5s;
+      line-height: 65px;
+      padding: 0 25px;
+      color: white;
+      display: block;
+  }
+
+  header a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+h1{ 
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size:100px;
+  color: gold;
+
+}
+
+
+.top{
+  padding-top:80px;
+ background: url(https://images2.alphacoders.com/261/thumb-1920-26102.jpg) no-repeat fixed center;
+ background-size: cover;
+text-align: center;
+}
+.top p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size:25px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.section
+{margin: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+#div-sec
+{
+text-align: center;
+margin:20px;
+font-family: Arial, Helvetica, sans-serif;
+
+font-size:50px;
+color: black;
+}
+
+#sec-con
+{
+  width: 70%;
+  margin: 0px auto;
+}
+.section div
+{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  padding:5pxpx 0px ;
+  font-size:24px;
+  margin: 10px 0px;
+  color:rgb(173, 27, 2);
+}
+
+#s1
+{
+  color: rgb(226, 15, 15);
+}
+
+#s2{color: rgb(226, 15, 15);}
+
+#s3{color:  rgb(226, 15, 15);}
+
+.section img 
+{
+  float: left;
+  width:80px ;
+  height: 60px;
+  display: inline-block;
+  padding:0px 10px ;
+  
+}
+
+.section-2
+{
+  background-color:yellow;
+
+  height:400px ;
+}
+
+#con-head 
+{
+  
+  font: 50px arial;
+ 
+
+  color: black;
+  text-align: center;
+  padding:25px ;
+  margin-top:100px;
+  margin-bottom: 50px;
+}
+#container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+
+
+
+
+
+.classics{
+  background: url(https://www.learningliftoff.com/wp-content/uploads/2014/04/ClassicBooks.jpg) no-repeat center;
+  background-size: 350px 200px;
+
+}
+
+h2{ text-shadow:3px 3px darkgrey ;
+  font-size: 50px;
+  color:white;
+  text-align:center;
+  font-family: cursive;
+}
+
+
+
+.comics{
+  background: url(https://wallpaperplay.com/walls/full/b/e/c/126266.jpg) no-repeat center;
+  background-size:350px 200px;
+  
+}
+
+
+
+
+.mystery{
+  background:url(https://orion-uploads.openroadmedia.com/md_e5d14f2b81cc-bestmysterybooks2017_featured.jpg)no-repeat center;
+  background-size:350px 200px;
+ 
+
+}
+
+.Encyclopedias{
+  background:url(https://www.worldbook.com/resize/Shared/Images/Product/Discovery-Encyclopedia-2017/discovery-encyclopedia.jpg?bw=575&w=575) no-repeat center;
+  background-size:350px 200px;
+ 
+
+}
+.Fiction{
+  background:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/080819-fiction-books-1565300875.png) no-repeat center;
+  background-size:350px 200px;
+ 
+
+}
+.Romance{
+  background:url(https://www.barnesandnoble.com/blog/barnesy/wp-content/uploads/2014/05/YA_summerromance.jpg) no-repeat center;
+  background-size:350px 200px;
+ 
+
+}
+
+.footer
+{
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+
+}
